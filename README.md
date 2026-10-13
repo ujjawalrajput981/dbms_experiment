@@ -1,8 +1,15 @@
-# DBMS Experiments
+# 🗄️ DBMS Experiments
 
-A collection of Database Management System (DBMS) laboratory experiments containing ER diagrams, SQL programs, and execution screenshots.
+A collection of **Database Management System (DBMS) laboratory experiments** completed as part of my B.Tech in Computer Science and Engineering (AI & ML). This repository contains ER diagrams, SQL programs, database implementations, and execution screenshots documenting my practical learning.
 
-## Repository Structure
+## 📌 Repository Overview
+
+- **Repository:** [dbms_experiment](https://github.com/ujjawalrajput981/dbms_experiment)
+- **Language:** SQL
+- **Database:** MySQL
+- **Experiments Completed:** 6
+
+## 📂 Repository Structure
 
 ```text
 dbms_experiment/
@@ -17,62 +24,89 @@ dbms_experiment/
 │   ├── Screenshot_2.png
 │   └── Screenshot_3.png
 │
+├── Experiment_3/
+│   ├── Experiment_3.sql
+│   └── Execution screenshots
+│
+├── Experiment_4/
+│   ├── Experiment_4.sql
+│   └── Execution screenshots
+│
+├── Experiment_5/
+│   ├── Experiment_5.sql
+│   └── Execution screenshot
+│
+├── Experiment_6/
+│   └── Experiment_6.sql
+│
 └── README.md
 ```
 
-## Learning Progress
+*Note: The screenshot filenames in Experiments 3–5 are abbreviated in the repository view. Refer to the respective folders for their exact names.*
 
-| Experiment | Topic | Status |
+## 🧪 Experiments
+
+| Experiment | Main Files | Status |
 |---|---|---|
-| Experiment_1 | ER Model / Database Design | Completed |
-| Experiment_2 | Relational Schema & SQL | Completed |
+| Experiment 1 | ER diagram (`.drawio`) and PNG export | ✅ Completed |
+| Experiment 2 | SQL program and 3 screenshots | ✅ Completed |
+| Experiment 3 | SQL program and execution screenshots | ✅ Completed |
+| Experiment 4 | SQL program and execution screenshots | ✅ Completed |
+| Experiment 5 | SQL program and execution screenshot | ✅ Completed |
+| Experiment 6 | SQL program | ✅ Added |
 
+## 📚 Learning Progress
 
-## Progress
+- [x] Experiment 1 — ER Model / Database Design
+- [x] Experiment 2 — Relational Schema & SQL
+- [x] Experiment 3 — SQL Implementation
+- [x] Experiment 4 — SQL Implementation
+- [x] Experiment 5 — SQL Implementation
+- [x] Experiment 6 — SQL Implementation
 
-- [x] Experiment 1
-- [x] Experiment 2
-
-
-## Tools & Technologies
+## 🛠️ Tools & Technologies
 
 | Tool / Technology | Purpose |
 |---|---|
 | MySQL | Database creation and SQL execution |
-| SQL | Database queries and implementation |
-| Draw.io | ER diagram design |
+| SQL | Database definition, manipulation, and querying |
+| Draw.io | ER diagram design and visualization |
 | Git | Version control |
-| GitHub | Repository management |
+| GitHub | Source code hosting and repository management |
 
-## Experiments
+## 🎯 Learning Objectives
 
-### Experiment 1 — ER Model / Database Design
+Through these laboratory experiments, I aim to strengthen my understanding of:
 
-Contains the ER diagram created using Draw.io.
+- Entity-Relationship (ER) modeling and database design.
+- Relational schemas and database structure.
+- SQL commands and query execution.
+- Database tables, relationships, and constraints.
+- Practical database implementation and output verification.
+- Version control and project documentation using Git and GitHub.
 
-| File | Description |
-|---|---|
-| `Experiment_1.drawio` | Editable Draw.io diagram |
-| `Experiment_1(drawio).png` | Exported diagram image |
+## 🚀 Getting Started
 
-### Experiment 2 — Relational Schema & SQL
+Clone the repository:
 
-Contains the SQL implementation and execution screenshots.
+```bash
+git clone https://github.com/ujjawalrajput981/dbms_experiment.git
+```
 
-| File | Description |
-|---|---|
-| `Experiment_2.sql` | SQL source code |
-| `Screenshot_1.png` | SQL execution/output screenshot |
-| `Screenshot_2.png` | SQL execution/output screenshot |
-| `Screenshot_3.png` | SQL execution/output screenshot |
+Navigate to the repository:
 
-## Purpose
+```bash
+cd dbms_experiment
+```
 
-This repository is used to maintain DBMS laboratory experiments, including database design, SQL programs, diagrams, and execution results.
+Open the relevant experiment folder and execute its `.sql` file using MySQL Workbench or another compatible SQL environment. Refer to the included diagrams and screenshots where available.
 
-## Author
+## 👨‍💻 Author
 
-**Ujjawal Chauhan**
-**25LBCS3292**
-B.Tech CSE (AI & ML) 
+**Ujjawal Chauhan**  
+Student ID: `25LBCS3292`  
+B.Tech — Computer Science and Engineering (AI & ML)
 
+---
+
+⭐ This repository documents my DBMS practical work and ongoing learning throughout the course. More experiments and implementations will be added as the coursework progresses.
