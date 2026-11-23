@@ -141,5 +141,4 @@ JOIN Department d
 ON e.dept_id = d.dept_id
 JOIN Project p
 ON e.project_id = p.project_id
-ORDER BY d.dept_name, e.emp_name;
-
+ORDER BY d.dept_name, e.emp_name;git 
